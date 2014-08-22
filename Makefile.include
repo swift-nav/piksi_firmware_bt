@@ -1,0 +1,5 @@
+THIS_EXT_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
+CSRC += $(THIS_EXT_DIR)wt12.c
+
+EXT_SETUP += wt12_setup
+
