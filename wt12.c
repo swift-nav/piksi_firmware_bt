@@ -45,7 +45,7 @@ static struct {
 
 static void wt12_nmea_output(const char *s);
 
-static WORKING_AREA_CCM(wa_iap_thread, 1024);
+static WORKING_AREA_CCM(wa_iap_thread, 2048);
 static msg_t iap_thread(void *arg);
 
 static void iap_process_state(void);
